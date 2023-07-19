@@ -1,0 +1,22 @@
+{
+  "name": "unsigned",
+  "version": "1.0.0",
+  "description": "Unsigned is a web application designed to connect local bands and their fans by providing a centralized platform for bands to post their shows.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desireemora/Unsigned-Web-App.git"
+  },
+  "author": "Desiree J Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desireemora/Unsigned-Web-App/issues"
+  },
+  "homepage": "https://github.com/desireemora/Unsigned-Web-App#readme"
+}
