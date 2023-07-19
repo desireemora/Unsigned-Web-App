@@ -46,10 +46,6 @@ We welcome contributions from the community to enhance Unsigned and make it even
 
 Please ensure that your code adheres to the existing code style and includes appropriate tests.
 
-## License
-
-Unsigned is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute this application as per the terms of the license.
-
 ## Contact
 
 If you have any questions, suggestions, or feedback, please contact our team at unsigned.music.help@gmail.com. We value your input and would be happy to assist you.
