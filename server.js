@@ -1,13 +1,17 @@
 const express = require("express");
+const errorHandler = require("./middleware/errorHandler");
 const dotenv = require("dotenv").config();
 
 const app = express();
 
 const port = process.env.PORT;
 
-app.get("/api/artists", (req,res) => {
-    res.send("Emma Seckso and Her Mirror Selfies")
-});
+//provides the parser so that we can get the body from the client
+app.use(express.json());
+//Artist Routes import
+app.use("/api/artists", require("./routes/artistRoutes"));
+//Importing error handler
+app.use(errorHandler);
 
 app.listen(port, () =>{
     console.log(`Server running on port ${port}`);
