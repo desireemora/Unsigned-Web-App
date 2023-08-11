@@ -1,6 +1,8 @@
 //Handles errors without writing try/catch blocks
 const asyncHandler = require("express-async-handler");
 
+const Artist = require("../models/artistModel");
+
 //@desc Get all artists
 //@route GET /api/artists
 //@access public
